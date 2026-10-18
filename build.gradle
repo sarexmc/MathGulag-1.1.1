@@ -5,10 +5,10 @@ plugins {
 }
 
 version = '1.0.0'
-group = 'com.gulag'
+group = 'com.mathgulag'
 
 base {
-    archivesName = 'gulag'
+    archivesName = 'mathgulag'
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -21,11 +21,11 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
         }
         client {
-            mods { gulag { source sourceSets.main } }
+            mods { mathgulag { source sourceSets.main } }
         }
         server {
             args '--nogui'
-            mods { gulag { source sourceSets.main } }
+            mods { mathgulag { source sourceSets.main } }
         }
     }
 }

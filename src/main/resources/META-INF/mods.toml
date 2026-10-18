@@ -3,19 +3,19 @@ loaderVersion="[47,)"
 license="All Rights Reserved"
 
 [[mods]]
-modId="gulag"
+modId="mathgulag"
 version="1.0.0"
-displayName="Gulag"
+displayName="MathGulag"
 description='''Gulag: bomba caliente con preguntas, HUD de venas y TNT.'''
 
-[[dependencies.gulag]]
+[[dependencies.mathgulag]]
 modId="forge"
 mandatory=true
 versionRange="[47,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.gulag]]
+[[dependencies.mathgulag]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.20.1,1.21)"
